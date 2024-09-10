@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    height: 700px;
+    width: 100%;
+    background-image: url("spidermanheader.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+}
+ header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    
+ }
+.logo{
+    height: 90px;
+    width: 150px;
+    margin-left: 10px;
+}
+img{
+    width: 120px;
+}
+
+.logoindex{
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+#links{
+    display: flex;
+   
+    height: 90px;
+    width: 100%;
+    margin-left: 20px;
+    
+}
+
+a{
+    top: 100px;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline orange;
+}
+
+.containermeio{
+    display: flex;
+    flex-direction: column;
+    background-image: url("thor_header.jpg");
+    background-size: cover;
+    background-attachment: local;
+    background-position: left;
+    height: 700px;
+}
+
+.containermeio p{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 800px;
+    width: 400px;
+
+}
+.meio h1{
+    color: white;
+    text-decoration: underline orange;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: underline orange;
+}
+
+.meio p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 90px;
+    height: 400px;
+    width: 40%;
+}
+
+h1{
+    text-align: center;
+}
+
+.boneco{
+    width: 700px;
+    display: flex;
+}
+
+.final{
+    display: flex;
+    height: 600px;
+
+}
+.finalindex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 90px;
+    height: 400px;
+    width: 40%;
+}
+
+.bindex{
+    width: 100px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #fc7467;
+    color: white;
+}
+.topocatalog{
+    background-image: url("captainmarvelheader.jpg");
+    background-size: cover;
+    height: 700px;
+}
+
+.logocatalog{
+    margin-top: 300px;
+    margin-left: 200px;
+    width: 400px;
+
+}
+
+section{
+    height: 900px;
+    
+}
+
+.hcatalog{
+    text-decoration: underline orange;
+    height: 50px;
+}
+.containerum{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 500px;
+   
+   
+}
+
+.containerdois{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 500px;
+   
+}
+
+.containerum img{
+    width: 200px;
+}
+
+.containerum button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #fc7467;
+    width: 100px;
+}
+
+.containerdois button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #fc7467;
+    width: 100px;
+}
+
+.containerdois img{
+    width: 200px;
+}
+
+.topocontact{
+    display: flex;
+    height: 700px;
+    background-image: url("contatoheader.jpg");
+    background-size: cover;
+}
+
+.logocontact{
+    display: flex;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 30px;
+    width: 400px;
+
+}
+
+.hcontact{
+    height: 50px;
+    text-decoration: underline orange;
+}
+
+.pcontact{
+    height: 100px;
+    width: 50%;
+    text-align: center;
+   
+}
+
+#txtum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 150px;
+  
+ 
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgb(238, 234, 234);
+    border: none;
+  
+}
+
+.tex{
+    display: flex;
+    height: 128px;
+    
+   
+}
+
+.contactbt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.contactbt button{
+    width: 45%;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #fc7467;
+}
+
+.filhoum button{
+    background-color: #fc7467;
+    border-radius: 5pc;
+    width: 100px;
+    padding: 8px;
+    border: none;
+    color: white;
+}
+ 
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .topo{
+        width: 100%;
+        height: 340px;
+        background-position: left;
+        background-size: cover;
+        background-attachment: local;
+        background-repeat: no-repeat;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoindex{
+        width: 120px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .containermeio{
+        background-position: right;
+        background-attachment: local;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .meiop p{
+        display: flex;
+        margin-left: 2px;
+        padding: 20px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .final{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .finalindex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 4px;
+       
+    }
+    .boneco{
+        width: 300px;
+    }
+
+    .topocatalog{
+        width: 100%;
+        height: 340px;
+        background-position: left;
+        background-size: cover;
+        background-attachment: local;
+        background-repeat: no-repeat;
+    }
+
+    .logocatalog{
+        width: 280px;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+
+    .containerum{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 900px;
+        gap: 10px;
+    }
+    
+
+    .containerdois{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 900px;
+        gap: 10px;
+    }
+    
+    .containerfilho img{
+        width: 130px;
+    }
+
+    .containerfilho{
+       gap: 20px;
+    }
+
+    .topocontact{
+        display: flex;
+        height: 450px;
+        background-position: center;
+        background-attachment: local;
+        background-size: cover;
+    }
+
+    .hcontact{
+        font-weight: 400;
+        font-size: 20px;
+        height: 40px;
+    }
+
+    .pcontact{
+        height: 100px;
+        margin-top: 5px;
+    }
+
+    .tex{
+        width: 300px;
+    }
+
+    
+    form{
+        height: 380px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input{
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .logocontact{
+        display: none;
+    }
+
+    .contactbt{
+         margin-top: 2px;
+    }
+    
+    }
+
+   
+      
